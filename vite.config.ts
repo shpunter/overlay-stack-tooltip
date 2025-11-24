@@ -1,9 +1,6 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
-import {
-  fromFileUrl,
-  resolve,
-} from "https://deno.land/std@0.211.0/path/mod.ts";
+import { fromFileUrl, resolve } from "path";
 
 const __dirname = fromFileUrl(new URL(".", import.meta.url));
 

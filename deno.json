@@ -39,6 +39,7 @@
     "@types/react": "npm:@types/react@^19.2.6",
     "@types/react-dom": "npm:@types/react-dom@^19.2.3",
     "typescript": "npm:typescript@^5.3.3",
+    "path": "https://deno.land/std@0.211.0/path/mod.ts",
     "tsc": "npm:typescript@^5.3.3/bin/tsc"
   },
   "ts": {
