@@ -31,6 +31,7 @@ try {
 }
 
 Deno.copyFileSync("index.d.ts", "dist/index.d.ts");
-
+Deno.copyFileSync("package.json", "dist/package.json");
+Deno.copyFileSync("package-lock.json", "dist/package-lock.json");
 
 
