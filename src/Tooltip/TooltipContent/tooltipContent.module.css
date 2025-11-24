@@ -1,0 +1,52 @@
+.content {
+    margin: 0;
+    background-color: #333333;
+    color: #FFFFFF;
+    padding: 5px 8px;
+    border-radius: 6px;
+    font-size: 0.875rem;
+
+    position: absolute;
+    inset: auto;
+    bottom: anchor(top);
+    justify-self: anchor-center;
+
+    position-anchor: --trigger;
+    position-try-fallbacks: --top-center, --bottom-center, --top-right, --top-left, --bottom-right, --bottom-left;
+}
+
+@position-try --bottom-center {
+    inset: auto;
+    top: anchor(bottom);
+    justify-self: anchor-center;
+}
+
+@position-try --top-center {
+    inset: auto;
+    bottom: anchor(top);
+    justify-self: anchor-center;
+}
+
+@position-try --bottom-right {
+    inset: auto;
+    top: anchor(bottom);
+    left: anchor(left);
+}
+
+@position-try --bottom-left {
+    inset: auto;
+    top: anchor(bottom);
+    right: anchor(right);
+}
+
+@position-try --top-right {
+    inset: auto;
+    bottom: anchor(top);
+    left: anchor(left);
+}
+
+@position-try --top-left {
+    inset: auto;
+    bottom: anchor(top);
+    right: anchor(right);
+}

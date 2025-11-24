@@ -1,0 +1,6 @@
+.trigger {
+  anchor-name: --trigger;
+  cursor: pointer;
+  width: fit-content;
+  height: fit-content;
+}

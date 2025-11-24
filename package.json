@@ -1,0 +1,32 @@
+{
+  "name": "@overlay-stack/tooltip",
+  "description": "@overlay-stack/tooltip",
+  "version": "0.0.16",
+  "module": "dist/index.es.js",
+  "types": "dist/index.d.ts",
+  "style": "dist/index.css",
+  "files": [
+    "dist/index.css",
+    "dist/index.es.js",
+    "dist/index.d.ts"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/index.es.js"
+    },
+    "./dist/index.css": "./dist/index.css",
+    "./style.css": "./dist/index.css"
+  },
+  "author": {
+    "name": "Oleksandr Brudnovskyi ",
+    "email": "oleksandr.brudnovskyi@gmail.com"
+  },
+  "license": "MIT",
+   "devDependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "peerDependencies": {
+    "react": ">=19.0.0"
+  }
+}
