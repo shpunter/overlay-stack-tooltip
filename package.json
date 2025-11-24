@@ -1,7 +1,7 @@
 {
   "name": "@overlay-stack/tooltip",
   "description": "@overlay-stack/tooltip",
-  "version": "0.0.16",
+  "version": "0.0.17",
   "module": "dist/index.es.js",
   "types": "dist/index.d.ts",
   "style": "dist/index.css",
