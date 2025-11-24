@@ -17,6 +17,10 @@
     "./dist/index.css": "./dist/index.css",
     "./style.css": "./dist/index.css"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shpunter/overlay-stack-tooltip"
+  },
   "author": {
     "name": "Oleksandr Brudnovskyi ",
     "email": "oleksandr.brudnovskyi@gmail.com"
