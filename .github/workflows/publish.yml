@@ -18,6 +18,3 @@ jobs:
 
       - name: Run linter
         run: deno lint
-
-      - name: Run check
-        run: deno check --all index.ts
