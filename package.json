@@ -1,7 +1,7 @@
 {
   "name": "@overlay-stack/tooltip",
   "description": "A smart, edge-aware React Tooltip component that automatically selects the best placement (top, bottom, left, right) to prevent clipping against the viewport, supporting any custom React component as its content.",
-  "version": "0.0.20",
+  "version": "0.0.21",
   "module": "dist/index.es.js",
   "types": "dist/index.d.ts",
   "style": "dist/index.css",

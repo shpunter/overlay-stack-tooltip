@@ -9,43 +9,31 @@
     position: absolute;
     inset: auto;
     bottom: anchor(top);
-    justify-self: anchor-center;
+    left: anchor(left);
 
     position-anchor: --trigger;
-    position-try-fallbacks: --top-center, --bottom-center, --top-right, --top-left, --bottom-right, --bottom-left;
-}
-
-@position-try --bottom-center {
-    inset: auto;
-    top: anchor(bottom);
-    justify-self: anchor-center;
-}
-
-@position-try --top-center {
-    inset: auto;
-    bottom: anchor(top);
-    justify-self: anchor-center;
-}
-
-@position-try --bottom-right {
-    inset: auto;
-    top: anchor(bottom);
-    left: anchor(left);
+    position-try-fallbacks: --top-left, --bottom-left, --top-right, --bottom-right;
 }
 
 @position-try --bottom-left {
     inset: auto;
     top: anchor(bottom);
+    left: anchor(left);
+}
+
+@position-try --bottom-right {
+    inset: auto;
+    top: anchor(bottom);
     right: anchor(right);
 }
 
-@position-try --top-right {
+@position-try --top-left {
     inset: auto;
     bottom: anchor(top);
     left: anchor(left);
 }
 
-@position-try --top-left {
+@position-try --top-right {
     inset: auto;
     bottom: anchor(top);
     right: anchor(right);
