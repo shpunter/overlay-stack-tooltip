@@ -6,7 +6,6 @@
     "npm:@vitejs/plugin-react@^5.1.1": "5.1.1_vite@7.2.4__picomatch@4.0.3_@babel+core@7.28.5",
     "npm:react-dom@^19.2.0": "19.2.0_react@19.2.0",
     "npm:react@^19.2.0": "19.2.0",
-    "npm:typescript@^5.3.3": "5.9.3",
     "npm:vite@*": "7.2.4_picomatch@4.0.3",
     "npm:vite@^7.2.4": "7.2.4_picomatch@4.0.3"
   },
@@ -663,10 +662,6 @@
         "picomatch"
       ]
     },
-    "typescript@5.9.3": {
-      "integrity": "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw==",
-      "bin": true
-    },
     "update-browserslist-db@1.1.4_browserslist@4.28.0": {
       "integrity": "sha512-q0SPT4xyU84saUX+tomz1WLkxUbuaJnR1xWt17M7fJtEJigJeWUNGUqrauFXsHnqev9y9JTRGwk13tFBuKby4A==",
       "dependencies": [
@@ -783,7 +778,6 @@
       "npm:@vitejs/plugin-react@^5.1.1",
       "npm:react-dom@^19.2.0",
       "npm:react@^19.2.0",
-      "npm:typescript@^5.3.3",
       "npm:vite@^7.2.4"
     ],
     "packageJson": {
